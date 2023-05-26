@@ -15,13 +15,11 @@ public class AddTestingCourseToMyCartTest extends BaseClass
 		home.clickGearsTab();
 		home.clickSkillraryDemoApp();
 		web.handleChildBrowser();
-		
-		home.chooseEnglish();
-		
+				
 		soft.assertTrue(demoApp.getLogoText().contains("ECommerce"));
 		
 		demoApp.selectCategory(web, 1);
-		soft.assertEquals(testing.getPageHeader(), "Testing ");
+		soft.assertEquals(testing.getPageHeader(), "Testing");
 		
 		web.scrollToElement(testing.getPythonImage());
 		web.dragAndDropElement(testing.getPythonImage(), testing.getMyCart());

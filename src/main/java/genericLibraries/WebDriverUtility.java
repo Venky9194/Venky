@@ -227,7 +227,7 @@ public class WebDriverUtility
 		public void scrollToElement(WebElement element)
 		{
 			JavascriptExecutor js=(JavascriptExecutor)driver;
-			js.executeScript("argument[0].scrollIntoView(true)", element);
+			js.executeScript("arguments[0].scrollIntoView(true)", element);
 		}
 		
 		/**

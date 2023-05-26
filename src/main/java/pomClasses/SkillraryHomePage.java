@@ -23,10 +23,10 @@ public class SkillraryHomePage
 	@FindBy(xpath="//ul[contains(@class,'dropdown-menu')]/descendant::a[text()=' SkillRary Demo APP']")
 	private WebElement skillraryDemoAppLink;
 	
-	//@FindBy(xpath="//ul[contains(@class,'home_menu')]/li[1]/ul[1]")
-	//private WebElement language;
+	@FindBy(xpath="//ul[contains(@class,'home_menu')]/li[1]")
+	private WebElement language;
 	
-	@FindBy(xpath="//ul[contains(@class,'home_menu')]/li[1]/ul[1]/descendant::a[text()=' English']")
+	@FindBy(xpath="//ul[contains(@class,'home_menu')]/descendant::a[text()=' English']")
 	private WebElement english;
 	
 	//Initialization
@@ -66,7 +66,7 @@ public class SkillraryHomePage
 	 */
 	public void chooseEnglish()
 	{
-		//language.click();
+		language.click();
 		english.click();
 	}
 }
