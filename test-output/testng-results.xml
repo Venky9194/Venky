@@ -1,33 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-26T09:04:59 IST" name="Default suite" finished-at="2023-05-26T09:05:22 IST" duration-ms="23355">
+  <suite started-at="2023-05-26T16:30:01 IST" name="Suite" finished-at="2023-05-26T16:30:52 IST" duration-ms="51390">
     <groups>
     </groups>
-    <test started-at="2023-05-26T09:04:59 IST" name="Default test" finished-at="2023-05-26T09:05:22 IST" duration-ms="23355">
+    <test started-at="2023-05-26T16:30:01 IST" name="Test" finished-at="2023-05-26T16:30:52 IST" duration-ms="51390">
       <class name="testScripts.SendContactDetailsTest">
-        <test-method is-config="true" signature="classConfig()[pri:0, instance:testScripts.SendContactDetailsTest@4d465b11]" started-at="2023-05-26T09:04:59 IST" name="classConfig" finished-at="2023-05-26T09:04:59 IST" duration-ms="443" status="PASS">
+        <test-method is-config="true" signature="classConfig()[pri:0, instance:testScripts.SendContactDetailsTest@4229bb3f]" started-at="2023-05-26T16:30:31 IST" name="classConfig" finished-at="2023-05-26T16:30:31 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classConfig -->
-        <test-method is-config="true" signature="methodConfig()[pri:0, instance:testScripts.SendContactDetailsTest@4d465b11]" started-at="2023-05-26T09:04:59 IST" name="methodConfig" finished-at="2023-05-26T09:05:04 IST" duration-ms="4937" status="PASS">
+        <test-method is-config="true" signature="methodConfig()[pri:0, instance:testScripts.SendContactDetailsTest@4229bb3f]" started-at="2023-05-26T16:30:31 IST" name="methodConfig" finished-at="2023-05-26T16:30:33 IST" duration-ms="2467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodConfig -->
-        <test-method signature="sendContactDetailsTest()[pri:0, instance:testScripts.SendContactDetailsTest@4d465b11]" started-at="2023-05-26T09:05:04 IST" name="sendContactDetailsTest" finished-at="2023-05-26T09:05:22 IST" duration-ms="17736" status="PASS">
+        <test-method signature="sendContactDetailsTest()[pri:0, instance:testScripts.SendContactDetailsTest@4229bb3f]" started-at="2023-05-26T16:30:33 IST" name="sendContactDetailsTest" finished-at="2023-05-26T16:30:42 IST" duration-ms="8448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendContactDetailsTest -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.SendContactDetailsTest@4d465b11]" started-at="2023-05-26T09:05:22 IST" name="methodTearDown" finished-at="2023-05-26T09:05:22 IST" duration-ms="208" status="PASS">
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.SendContactDetailsTest@4229bb3f]" started-at="2023-05-26T16:30:42 IST" name="methodTearDown" finished-at="2023-05-26T16:30:42 IST" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.SendContactDetailsTest@4d465b11]" started-at="2023-05-26T09:05:22 IST" name="classTearDown" finished-at="2023-05-26T09:05:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.SendContactDetailsTest@4229bb3f]" started-at="2023-05-26T16:30:42 IST" name="classTearDown" finished-at="2023-05-26T16:30:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->
       </class> <!-- testScripts.SendContactDetailsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testScripts.AddTestingCourseToMyCartTest">
+        <test-method is-config="true" signature="classConfig()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@56cdfb3b]" started-at="2023-05-26T16:30:42 IST" name="classConfig" finished-at="2023-05-26T16:30:42 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfig -->
+        <test-method is-config="true" signature="methodConfig()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@56cdfb3b]" started-at="2023-05-26T16:30:42 IST" name="methodConfig" finished-at="2023-05-26T16:30:44 IST" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfig -->
+        <test-method signature="addpythonToMyCart()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@56cdfb3b]" started-at="2023-05-26T16:30:44 IST" name="addpythonToMyCart" finished-at="2023-05-26T16:30:52 IST" duration-ms="7753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addpythonToMyCart -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@56cdfb3b]" started-at="2023-05-26T16:30:52 IST" name="methodTearDown" finished-at="2023-05-26T16:30:52 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@56cdfb3b]" started-at="2023-05-26T16:30:52 IST" name="classTearDown" finished-at="2023-05-26T16:30:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testScripts.AddTestingCourseToMyCartTest -->
+      <class name="testScripts.AddToCartTest">
+        <test-method is-config="true" signature="classConfig()[pri:0, instance:testScripts.AddToCartTest@4d0f2471]" started-at="2023-05-26T16:30:01 IST" name="classConfig" finished-at="2023-05-26T16:30:01 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfig -->
+        <test-method is-config="true" signature="methodConfig()[pri:0, instance:testScripts.AddToCartTest@4d0f2471]" started-at="2023-05-26T16:30:01 IST" name="methodConfig" finished-at="2023-05-26T16:30:27 IST" duration-ms="25500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfig -->
+        <test-method signature="addToCartTest()[pri:0, instance:testScripts.AddToCartTest@4d0f2471]" started-at="2023-05-26T16:30:27 IST" name="addToCartTest" finished-at="2023-05-26T16:30:30 IST" duration-ms="3402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.AddToCartTest@4d0f2471]" started-at="2023-05-26T16:30:30 IST" name="methodTearDown" finished-at="2023-05-26T16:30:31 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.AddToCartTest@4d0f2471]" started-at="2023-05-26T16:30:31 IST" name="classTearDown" finished-at="2023-05-26T16:30:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testScripts.AddToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
